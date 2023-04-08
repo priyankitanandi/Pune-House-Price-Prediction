@@ -12,7 +12,9 @@ implemented. Also, multi-layer perceptron (MLP) models will be implemented using
 scikit-learn and TensorFlow.
 This house price prediction project will help you predict the price of houses based on
 various features and house properties.
+
 Data Description
+----------------
 We are given a real estate dataset with around 200 rows and 17 different variables that
 play an important role in predicting our target variable, i.e., price.
 Aim
@@ -20,13 +22,13 @@ The goal is to predict sale prices for homes in Pune city.
 Tech stack
 ⮚ Language - Python
 ⮚ Libraries - sklearn, pandas, NumPy, matplotlib, seaborn, xgboost
-Approach
-1. Data Cleaning
-● Importing the required libraries and reading the dataset.
-● Preliminary exploration
-● Check for the outliers and remove outliers.
-● Dropping of redundant feature columns
-● Missing value handling
+### Approach ###
+#### 1. Data Cleaning ####
+*  Importing the required libraries and reading the dataset.
+*  Preliminary exploration
+*  Check for the outliers and remove outliers.
+* Dropping of redundant feature columns
+* Missing value handling
 ● Regularizing the categorical columns
 ● Save the cleaned data
 2. Data Analysis
